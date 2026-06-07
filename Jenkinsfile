@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git url: 'https://github.com/example-user/jenkins-blueocean-demo.git', branch: 'main'
+                git url: 'https://github.com/bjovanceva/kii_lab.git', branch: 'main'
             }
         }
 
